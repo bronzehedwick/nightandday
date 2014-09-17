@@ -1,0 +1,37 @@
+body {
+  background-color: $sky;
+}
+
+.sun {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include border-radius(50%);
+  background-color: $sun;
+}
+
+.hills-wrapper {
+  position: relative;
+}
+
+.hill-1, .hill-2 {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.hill-1 {
+  height: 40%;
+  background-color: $grass;
+  @include border-radius(175% 0 0 0);
+}
+
+.hill-2 {
+  height: 28%;
+  background-color: darken($grass, 3);
+  @include border-radius(0 280% 0 0);
+}
+

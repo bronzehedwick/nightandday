@@ -1,0 +1,22 @@
+/**
+ * Import all styles to stay organized.
+ */
+
+/* reset browser css */
+@import 'compass/reset';
+
+/* css3 goodness */
+@import 'compass/css3';
+
+/* general color styles */
+@import 'includes/_colors';
+
+/* colors for the day */
+@import 'includes/_colors-day';
+
+/* colors for the night */
+@import 'includes/_colors-night';
+
+/* draw the scene */
+@import 'includes/_landscape';
+
