@@ -8,6 +8,9 @@
 /* css3 goodness */
 @import 'compass/css3';
 
+/* draw the scene */
+@import 'includes/_landscape';
+
 /* general color styles */
 @import 'includes/_colors';
 
@@ -16,7 +19,4 @@
 
 /* colors for the night */
 @import 'includes/_colors-night';
-
-/* draw the scene */
-@import 'includes/_landscape';
 

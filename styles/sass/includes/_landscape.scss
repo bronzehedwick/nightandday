@@ -1,6 +1,6 @@
-body {
-  background-color: $sky;
-}
+/**
+ * Main styles that define the elements of the scene.
+ */
 
 .sun {
   width: 200px;
@@ -10,28 +10,26 @@ body {
   top: 0;
   left: 0;
   @include border-radius(50%);
-  background-color: $sun;
 }
 
 .hills-wrapper {
   position: relative;
 }
 
-.hill-1, .hill-2 {
+.hill-background,
+.hill-foreground {
   position: fixed;
   width: 100%;
   bottom: 0;
 }
 
-.hill-1 {
+.hill-background {
   height: 40%;
-  background-color: $grass;
   @include border-radius(175% 0 0 0);
 }
 
-.hill-2 {
+.hill-foreground {
   height: 28%;
-  background-color: darken($grass, 3);
   @include border-radius(0 280% 0 0);
 }
 

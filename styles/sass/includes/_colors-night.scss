@@ -1,0 +1,14 @@
+/**
+ * This file defines the color pallet for the night.
+ */
+
+/* variables */
+$night_sky : #001f3f;
+$night_clouds : shade($clouds, 70%);
+$night_grass : shade($grass, 70%);
+
+/* classes */
+.sky.night { background-color: $night_sky; }
+.clouds.night { background-color: $night_clouds; }
+.hill-background.night { background-color: darken($night_grass, 3); }
+.hill-foreground.night { background-color: $night_grass; }
