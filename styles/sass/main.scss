@@ -9,14 +9,14 @@
 @import 'compass/css3';
 
 /* draw the scene */
-@import 'includes/_landscape';
+@import '_landscape';
 
 /* general color styles */
-@import 'includes/_colors';
+@import '_colors';
 
 /* colors for the day */
-@import 'includes/_colors-day';
+@import '_colors-day';
 
 /* colors for the night */
-@import 'includes/_colors-night';
+@import '_colors-night';
 
