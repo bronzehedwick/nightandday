@@ -2,6 +2,12 @@
  * Main styles that define the elements of the scene.
  */
 
+.sky,
+.hill-background,
+.hill-foreground {
+  transition: background-color 0.5s ease-out;
+}
+
 .sun {
   width: 200px;
   height: 200px;
